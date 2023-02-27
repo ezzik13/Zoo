@@ -49,4 +49,5 @@ public abstract class Animal {
     public  abstract  int getMaxWeight();
 
     public abstract String getType();
+
 }

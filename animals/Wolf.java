@@ -1,18 +1,17 @@
 package animals;
 
-public class Wolf extends Animal{
+public class Wolf extends Animal implements Comparable<Wolf>{
 
     protected static final int MAXWEIGHT = 70;
     protected static final String TYPE = "Wolf";
 
-    Wolf(int yearBorn, int weight, int countLimbs) {
+
+
+    public Wolf(int yearBorn, int weight, int countLimbs) {
         super(yearBorn, weight, countLimbs);
+
     }
-    public Wolf() {
-        this.yearBorn = 2019;
-        this.weight = 40;
-        this.countLimbs = 4;
-    }
+
 
     @Override
     public int getMaxWeight() {
@@ -31,5 +30,14 @@ public class Wolf extends Animal{
                 ", weight=" + weight +
                 ", countLimbs=" + countLimbs +
                 '}';
+    }
+    @Override
+    public int compareTo(Wolf o) {
+        if (this.yearBorn < o.yearBorn) {
+            return 1;
+        } else if (this.yearBorn > o.yearBorn) {
+            return -1;
+        }
+        return 0;
     }
 }

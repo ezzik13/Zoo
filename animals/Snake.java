@@ -5,7 +5,7 @@ public class Snake extends Animal {
     protected static final int MAXWEIGHT = 50;
     protected static final String TYPE = "Snake";
 
-    Snake(int yearBorn, int weight, int limbs) {
+    public Snake(int yearBorn, int weight, int limbs) {
 
         super(yearBorn, weight, limbs);
     }

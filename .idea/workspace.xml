@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="292b80d1-7c2a-40b1-bd5c-35a004e806af" name="Changes" comment="" />
+    <list default="true" id="292b80d1-7c2a-40b1-bd5c-35a004e806af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/animals/LionComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animals/WolfCompararor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animals/WolfIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zoo/animals/LionComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zoo/animals/WolfCompararor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zoo/animals/WolfIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/AnimalCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/LionCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/WolfCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/LionsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory/LionsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/Mane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/Mane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/animals/Lion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/animals/Snake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/animals/Wolf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/AnimalCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/AnimalCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/LionCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/LionCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/WolfCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/WolfCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/factory/LionsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/factory/LionsFactory.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,16 +47,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MGukR5acpIYRNRsbPz8X74DsLA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="animals" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
