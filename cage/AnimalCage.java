@@ -2,9 +2,14 @@ package cage;
 
 import animals.Animal;
 
-public abstract interface AnimalCage{
-    int addAnimal(Animal animal);
+import java.util.Collections;
+import java.util.List;
+
+public abstract interface AnimalCage<T extends Animal>{
+    int addAnimal(T addAnimal);
     int deliverFoodInCage(int foodInCage);
     int cleanCage();
     Animal remuveAnimal();
+//    void yearBornSort();
+
 }

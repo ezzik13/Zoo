@@ -1,6 +1,7 @@
 import animals.Lion;
 import animals.Wolf;
 import animals.WolfCompararor;
+import animalsUtils.AnumalsUtils;
 import cage.LionCage;
 import cage.WolfCage;
 import factory.LionsFactory;
@@ -26,6 +27,7 @@ public class Mane {
             wolfArrayList.add(new Wolf(a, w, 4));
         }
         WolfCage wolfCage = new WolfCage(wolfArrayList);
+
 //        System.out.println(wolfCage);
 //        wolfCage.remuveAnimal();
 //        System.out.println(wolfCage);
@@ -37,8 +39,9 @@ public class Mane {
         for (Wolf wolf:wolfCage) {
             System.out.println(wolf);
         }
+        AnumalsUtils.sortAnimals(wolfArrayList);
         System.out.println();
-        wolfCage.sortWolfsByWeightAndAge();
+//        wolfCage.sortWolfsByWeightAndAge();
         for (Wolf wolf:wolfCage) {
             System.out.println(wolf);
         }

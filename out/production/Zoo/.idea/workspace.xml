@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="292b80d1-7c2a-40b1-bd5c-35a004e806af" name="Changes" comment="" />
+    <list default="true" id="292b80d1-7c2a-40b1-bd5c-35a004e806af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/animalsUtils/AnumalsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cage/SnakeCage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comparators/AnimalsComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/AnimalCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/LionCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/WolfCage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,16 +32,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MGukR5acpIYRNRsbPz8X74DsLA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="animals" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
