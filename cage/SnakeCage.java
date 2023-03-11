@@ -2,11 +2,18 @@ package cage;
 
 import animals.Animal;
 import animals.Snake;
+import animals.Wolf;
 
-public class SnakeCage implements AnimalCage<Snake> {
+import java.util.ArrayList;
+
+public class SnakeCage<T extends Snake> implements AnimalCage {
+
+    private int clean;
+    private ArrayList<T> snakes;
+
     @Override
-    public int addAnimal(Snake addAnimal) {
-        return 0;
+    public int addAnimal(Animal addAnimal) {
+        return snakes.size();
     }
 
     @Override
@@ -20,7 +27,7 @@ public class SnakeCage implements AnimalCage<Snake> {
     }
 
     @Override
-    public Animal remuveAnimal() {
+    public T remuveAnimal() {
         return null;
     }
 

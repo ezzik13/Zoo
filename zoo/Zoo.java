@@ -10,33 +10,20 @@ public class Zoo {
     private AnimalCage<Wolf> wolfCage;
     private AnimalCage<Lion> lionCage;
     private AnimalCage<Snake> snakeCage;
-    public Zoo(AnimalCage<Wolf> wolfCage, AnimalCage<Lion> lionCage, AnimalCage<Snake> snakeCage){
+
+    public Zoo(AnimalCage<Wolf> wolfCage, AnimalCage<Lion> lionCage, AnimalCage<Snake> snakeCage) {
         this.wolfCage = wolfCage;
         this.lionCage = lionCage;
         this.snakeCage = snakeCage;
     }
 
-    public AnimalCage<Wolf> getWolfCage() {
-        return wolfCage;
+    public Lion remooveLionFromZoo() {
+        return this.lionCage.remuveAnimal();
     }
 
-    public void setWolfCage(AnimalCage<Wolf> wolfCage) {
-        this.wolfCage = wolfCage;
-    }
+    public void insertLionToZoo() {
 
-    public AnimalCage<Lion> getLionCage() {
-        return lionCage;
-    }
+        this.lionCage.addAnimal(new Lion(2010, 50, 4, 30));
 
-    public void setLionCage(AnimalCage<Lion> lionCage) {
-        this.lionCage = lionCage;
-    }
-
-    public AnimalCage<Snake> getSnakeCage() {
-        return snakeCage;
-    }
-
-    public void setSnakeCage(AnimalCage<Snake> snakeCage) {
-        this.snakeCage = snakeCage;
     }
 }

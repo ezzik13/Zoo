@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292b80d1-7c2a-40b1-bd5c-35a004e806af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/animalsUtils/AnumalsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cage/SnakeCage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comparators/AnimalsComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zoo/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/CommandExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/CommandExecutableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/CommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/CreateLionExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/DeleteLionExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/TerminalReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/AnimalCage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/LionCage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/WolfCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/SnakeCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/SnakeCage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Zoo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Zoo/Mane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/Mane.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/AnimalCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/AnimalCage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/LionCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/LionCage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/WolfCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/WolfCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/SnakeCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/SnakeCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/zoo/Zoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/zoo/Zoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,8 @@
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Учеба/ООП/Zoo&quot;
   }
 }</component>
   <component name="RecentsManager">

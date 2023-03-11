@@ -9,7 +9,7 @@ public abstract interface AnimalCage<T extends Animal>{
     int addAnimal(T addAnimal);
     int deliverFoodInCage(int foodInCage);
     int cleanCage();
-    Animal remuveAnimal();
+    T remuveAnimal();
 //    void yearBornSort();
 
 }
