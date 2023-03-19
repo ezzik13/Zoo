@@ -1,5 +1,7 @@
 package animals;
 
+import java.util.Random;
+
 public class Lion extends Animal implements Comparable<Lion> {
     protected int maneVollum;
     protected static final int MAXWEIGHT = 150;
@@ -19,6 +21,13 @@ public class Lion extends Animal implements Comparable<Lion> {
     public int getManeVollum() {
 
         return maneVollum;
+    }
+
+    public Lion() {
+        this.weight = new Random().nextInt(80,120);
+        this.yearBorn = new Random().nextInt(2010, 2020);
+        this.maneVollum = new Random().nextInt(15, 25);
+        this.countLimbs = 4;
     }
 
     public void setManeVollum(int maneVollum) {
@@ -42,12 +51,12 @@ public class Lion extends Animal implements Comparable<Lion> {
 
     @Override
     public String toString() {
-        return "Lion{" +
+        return "\nLion(" +
                 "maneVollum=" + maneVollum +
                 ", yearBorn=" + yearBorn +
                 ", weight=" + weight +
                 ", countLimbs=" + countLimbs +
-                '}';
+                ")";
     }
 
     @Override

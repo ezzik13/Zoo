@@ -23,7 +23,26 @@ public class Zoo {
 
     public void insertLionToZoo() {
 
-        this.lionCage.addAnimal(new Lion(2010, 50, 4, 30));
+        this.lionCage.addAnimal(new Lion());
+    }
+    public Wolf remooveWolfeFromZoo(){
+        return  this.wolfCage.remuveAnimal();
+    }
+    public Snake remooveSnakeFromZoo(){
+        return  this.snakeCage.remuveAnimal();
+    }
+    public void insertWolfToZoo() {
 
+        this.wolfCage.addAnimal(new Wolf());
+    }
+    public void insertLSnakeToZoo() {
+
+        this.snakeCage.addAnimal(new Snake());
+    }
+
+
+    @Override
+    public String toString() {
+        return "Zoo: " +wolfCage + lionCage + snakeCage;
     }
 }

@@ -1,4 +1,6 @@
-package animals;
+package comparators;
+
+import animals.Wolf;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,5 +1,7 @@
 package animals;
 
+import java.util.Random;
+
 public class Wolf extends Animal implements Comparable<Wolf>{
 
     protected static final int MAXWEIGHT = 70;
@@ -10,6 +12,11 @@ public class Wolf extends Animal implements Comparable<Wolf>{
     public Wolf(int yearBorn, int weight, int countLimbs) {
         super(yearBorn, weight, countLimbs);
 
+    }
+    public Wolf() {
+        this.weight = new Random().nextInt(40,80);
+        this.yearBorn = new Random().nextInt(2005, 2020);
+        this.countLimbs = 4;
     }
 
 
@@ -25,11 +32,11 @@ public class Wolf extends Animal implements Comparable<Wolf>{
 
     @Override
     public String toString() {
-        return "Wolf{" +
+        return "\nWolf(" +
                 "yearBorn=" + yearBorn +
                 ", weight=" + weight +
                 ", countLimbs=" + countLimbs +
-                '}';
+                ')';
     }
     @Override
     public int compareTo(Wolf o) {

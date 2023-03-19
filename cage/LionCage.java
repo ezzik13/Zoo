@@ -1,8 +1,7 @@
 package cage;
 
-import animals.Animal;
 import animals.Lion;
-import animals.LionComparator;
+import comparators.LionComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -60,10 +59,9 @@ public class LionCage implements AnimalCage<Lion> {
 
     @Override
     public String toString() {
-        return "LionCage{" +
+        return "\nLionCage: " +
                 "clean=" + clean +
-                ", lions=" + lions +
-                '}';
+                ", lions=" + lions;
     }
 
     public void sortLions() {

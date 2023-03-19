@@ -12,6 +12,7 @@ public abstract class Animal{
     }
 
     protected Animal() {
+
     }
 
     public void setYearBorn(int yearBorn) {

@@ -2,21 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292b80d1-7c2a-40b1-bd5c-35a004e806af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/terminal/CommandExecutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terminal/CommandExecutableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terminal/CommandParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terminal/CreateLionExecutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terminal/DeleteLionExecutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terminal/TerminalReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/CommandExecutableFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/LogingCommandExecutableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/executable/CreateSnakeExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/executable/CreateWolfeExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/executable/DeleteSnakeExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/executable/DeleteWolfeExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/executable/PrintZoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/AnimalCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/LionComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/comparators/LionComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/WolfCompararor.java" beforeDir="false" afterPath="$PROJECT_DIR$/comparators/WolfCompararor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/WolfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/comparators/WolfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/LionCage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cage/SnakeCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/SnakeCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/cage/WolfCage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Zoo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Zoo/Mane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/Mane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/AnimalCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/AnimalCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/animals/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/animals/Lion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/LionComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/animals/Snake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/animals/Wolf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/WolfCompararor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/animals/WolfIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/LionCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/LionCage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/SnakeCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/SnakeCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/cage/WolfCage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/cage/WolfCage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/terminal/CommandExecutableFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/terminal/CommandExecutableFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/terminal/CommandParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/terminal/CommandParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/terminal/CreateLionExecutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/terminal/DeleteLionExecutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zoo/terminal/TerminalReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/terminal/TerminalReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Zoo/zoo/Zoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zoo/zoo/Zoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal/CommandExecutableFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/CommandExecutableFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal/CommandParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/CommandParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal/CreateLionExecutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/executable/CreateLionExecutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal/DeleteLionExecutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/executable/DeleteLionExecutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal/TerminalReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/TerminalReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +84,16 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Учеба/ООП/Zoo&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="animals" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="terminal.executable" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

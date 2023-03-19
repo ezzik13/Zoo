@@ -1,6 +1,8 @@
 package cage;
 
 import animals.*;
+import comparators.WolfCompararor;
+import comparators.WolfIterator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -60,10 +62,9 @@ public class WolfCage implements AnimalCage<Wolf>, Iterable<Wolf> {
 
     @Override
     public String toString() {
-        return "WolfCage{" +
+        return "\nWolfCage: " +
                 "clean=" + clean +
-                ", wolfs=" + wolfs +
-                '}';
+                ", wolfs=" + wolfs;
     }
 
     public void sortWolf() {
